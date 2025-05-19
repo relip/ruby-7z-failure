@@ -12,5 +12,5 @@ jobs:
       - name: 7z
         run: |
           gcm 7z
-          Get-Content -Path (gem 7z).Source
+          Get-Content -Path (gcm 7z).Source
           7z
